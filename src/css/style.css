@@ -65,9 +65,12 @@
 }
 
 
-/* id: box-header-inti-formation */
+/* <!-- pertie droite de la nav-bar --> */
 
-.box-header-inti-formation {
+
+/* id: box-header-inti-formation-left */
+
+.box-header-inti-formation-left {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -90,9 +93,9 @@
 @media (max-width:670px) {}
 
 
-/* id: linkButtonFormateur */
+/* id: cellulle-link-formation-inti */
 
-.linkButtonFormateur {
+.cellulle-link-formation-inti {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -122,7 +125,7 @@
     transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
 }
 
-.linkButtonFormateur>span {
+.cellulle-link-formation-inti>span {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -142,35 +145,238 @@
 }
 
 @media (max-width:670px) {
-    .linkButtonFormateur>span {
+    .cellulle-link-formation-inti>span {
         padding: 0.8125rem 1.5rem 0.8125rem calc(1.5rem * 2);
         font-size: 0.9375rem;
     }
 }
 
-.linkButtonFormateur:hover {
+.cellulle-link-formation-inti:hover {
     background-color: #4b4d55;
 }
 
 @media (max-width:670px) {
-    .linkButtonFormateur {
+    .cellulle-link-formation-inti {
         background: none;
         border-right: 0;
     }
 }
 
-.linkButtonFormateur:hover .q0xs59-0 svg path {
+.cellulle-link-formation-inti:hover .q0xs59-0 svg path {
     fill: #ffffff;
 }
 
-.linkButtonFormateur:hover {
+.cellulle-link-formation-inti:hover {
     background-color: #04E4FB;
     /*#00c29a;*/
     opacity: 0.8;
 }
 
 @media (max-width:670px) {
-    .linkButtonFormateur {
+    .cellulle-link-formation-inti {
         display: none;
     }
 }
+
+
+/* <!-- pertie droite de la nav-bar --> */
+
+
+/* <!-- pertie gauche de la nav-bar --> */
+
+
+/* id: box-header-inti-formation-left */
+
+.box-header-inti-formation-left {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+@media (max-width:900px) {}
+
+@media (max-width:670px) {}
+
+
+/* id: cellulle-link-signin */
+
+.cellulle-link-signin {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #ffffff;
+    -webkit-letter-spacing: calc(0.75rem / 10);
+    -moz-letter-spacing: calc(0.75rem / 10);
+    -ms-letter-spacing: calc(0.75rem / 10);
+    letter-spacing: calc(0.75rem / 10);
+    overflow: hidden;
+    background-color: #31333b;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-left: 1px solid #4b4d55;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    background-color: #31333b;
+    border-right: 0;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+}
+
+.cellulle-link-signin>span {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 1.5rem;
+    z-index: 1;
+}
+
+@media (max-width:670px) {
+    .cellulle-link-signin>span {
+        padding: 0.8125rem 1.5rem 0.8125rem calc(1.5rem * 2);
+        font-size: 0.9375rem;
+    }
+}
+
+.cellulle-link-signin:hover {
+    background-color: #4b4d55;
+}
+
+@media (max-width:670px) {
+    .a-box-formateur {
+        background: none;
+        border-right: 0;
+    }
+}
+
+.cellulle-link-signin:hover .q0xs59-0 svg path {
+    fill: #ffffff;
+}
+
+.cellulle-link-signin:hover {
+    background-color: #4b4d55;
+}
+
+@media (max-width:670px) {
+    .cellulle-link-signin {
+        display: none;
+    }
+}
+
+
+/* id: cellulle-link-signup */
+
+.cellulle-link-signup {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #ffffff;
+    -webkit-letter-spacing: calc(0.75rem / 10);
+    -moz-letter-spacing: calc(0.75rem / 10);
+    -ms-letter-spacing: calc(0.75rem / 10);
+    letter-spacing: calc(0.75rem / 10);
+    overflow: hidden;
+    background-color: #00c29a;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-right: 1px solid #04E4FB;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    background-color: #04E4FB;
+    border-right: 0;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    opacity: 0.8;
+}
+
+.cellulle-link-signup>span {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 1.5rem;
+    z-index: 1;
+}
+
+@media (max-width:670px) {
+    .cellulle-link-signup>span {
+        padding: 0.8125rem 1.5rem 0.8125rem calc(1.5rem * 2);
+        font-size: 0.9375rem;
+    }
+}
+
+.cellulle-link-signup:hover {
+    background-color: #4b4d55;
+}
+
+@media (max-width:670px) {
+    .cellulle-link-signup {
+        background: none;
+        border-right: 0;
+    }
+}
+
+.cellulle-link-signup:hover .q0xs59-0 svg path {
+    fill: #ffffff;
+}
+
+.cellulle-link-signup:hover {
+    background-color: #4b4d55;
+}
+
+@media (max-width:670px) {
+    .cellulle-link-signup {
+        display: none;
+    }
+}
+
+
+/* <!-- pertie gauche de la nav-bar --> */
