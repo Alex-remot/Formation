@@ -45,7 +45,7 @@ footer {
     height: 200px;*/
     margin-top: auto;
 	width: 100%;
-	background-color: #BCBCBB;
+	background-color: #138496;
 }
 
 .signup {
@@ -59,4 +59,12 @@ footer {
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 20px;
+}
+
+a {
+	color: black;
+}
+
+a:link {
+	
 }
