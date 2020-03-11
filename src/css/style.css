@@ -179,10 +179,10 @@
 }
 
 
-/* <!-- pertie droite de la nav-bar --> */
+/* <!-- partie droite de la nav-bar --> */
 
 
-/* <!-- pertie gauche de la nav-bar --> */
+/* <!-- partie gauche de la nav-bar --> */
 
 
 /* id: box-header-inti-formation-left */
@@ -379,9 +379,74 @@
 }
 
 
-/* <!-- pertie gauche de la nav-bar --> */
+/* id: div-cellulle-link-social-net-work */
 
-=======html,
+.div-cellulle-link-social-net-work {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+}
+
+@media (max-width:900px) {
+    .div-cellulle-link-social-net-work {
+        display: none;
+    }
+}
+
+
+/* id: a-cellulle-link-LinkDin  */
+
+.a-cellulle-link-LinkDin {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    padding: 0 1rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 50px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+}
+
+.a-cellulle-link-LinkDin:hover {
+    background-color: #4b4d55;
+}
+
+.a-cellulle-link-LinkDin svg {
+    max-width: 1.1rem;
+    max-height: 1.1rem;
+}
+
+.a-cellulle-link-LinkDin svg path {
+    fill: #87888d;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+}
+
+.a-cellulle-link-LinkDin:hover svg path {
+    fill: #ffffff;
+}
+
+
+/* <!-- partie gauche de la nav-bar --> */
+
+
+/* ------------------- Partie de Lilas -------------------- */
+
+html,
 body {
     font-family: sans-serif;
     height: 100%;
