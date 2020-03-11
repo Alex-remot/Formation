@@ -179,10 +179,81 @@
 }
 
 
-/* <!-- partie droite de la nav-bar --> */
+/* id: div-link-social-network */
+
+.div-link-social-network {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+}
+
+@media (max-width:900px) {
+    .div-link-social-network {
+        display: none;
+    }
+}
 
 
-/* <!-- partie gauche de la nav-bar --> */
+/* id: a-link-social-network */
+
+.a-link-social-network {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    padding: 0 1rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 50px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+}
+
+.a-link-social-network:hover {
+    background-color: #4b4d55;
+}
+
+.a-link-social-network svg {
+    max-width: 1.1rem;
+    max-height: 1.1rem;
+}
+
+.a-link-social-network svg path {
+    fill: #87888d;
+    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
+}
+
+.a-link-social-network:hover svg path {
+    fill: #ffffff;
+}
+
+@media (max-width:670px) {
+    .a-link-social-network {
+        -webkit-flex: 1 1 0;
+        -ms-flex: 1 1 0;
+        flex: 1 1 0;
+        padding: 1rem;
+    }
+}
+
+
+/* <!-- pertie droite de la nav-bar --> */
+
+
+/* <!-- pertie gauche de la nav-bar --> */
 
 
 /* id: box-header-inti-formation-left */
@@ -379,72 +450,10 @@
 }
 
 
-/* id: div-cellulle-link-social-net-work */
-
-.div-cellulle-link-social-net-work {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-}
-
-@media (max-width:900px) {
-    .div-cellulle-link-social-net-work {
-        display: none;
-    }
-}
+/* <!-- pertie gauche de la nav-bar --> */
 
 
-/* id: a-cellulle-link-LinkDin  */
-
-.a-cellulle-link-LinkDin {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: hidden;
-    padding: 0 1rem;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    width: 50px;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
-    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
-}
-
-.a-cellulle-link-LinkDin:hover {
-    background-color: #4b4d55;
-}
-
-.a-cellulle-link-LinkDin svg {
-    max-width: 1.1rem;
-    max-height: 1.1rem;
-}
-
-.a-cellulle-link-LinkDin svg path {
-    fill: #87888d;
-    -webkit-transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
-    transition: all .2s cubic-bezier(0.41, 0.094, 0.54, 0.07);
-}
-
-.a-cellulle-link-LinkDin:hover svg path {
-    fill: #ffffff;
-}
-
-
-/* <!-- partie gauche de la nav-bar --> */
-
-
-/* ------------------- Partie de Lilas -------------------- */
+/* ---------------------------------------- modif Lilas ------------------------------------- */
 
 html,
 body {
@@ -520,6 +529,16 @@ footer {
 
 a {
     color: black;
+}
+
+a:link {}
+
+.jumb-index {
+    background-image: url(/img/jumbindex.jpg);
+    width: 100%;
+    /* Il occupe toute la largeur de l'écran */
+    background-size: cover;
+    /* ne se repète pas dans la largeur */
 }
 
 a:link {}
