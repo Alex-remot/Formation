@@ -531,19 +531,14 @@ a {
     color: black;
 }
 
-<<<<<<< HEAD
 a:link {}
 
-
-/* ---------------------------------------- modif Lilas ------------------------------------- */
-=======
-<<<<<<< HEAD
 .jumb-index {
-  background-image: url(/img/jumbindex.jpg);
-  width: 100%; /* Il occupe toute la largeur de l'écran */
-  background-size: cover; /* ne se repète pas dans la largeur */
+    background-image: url(/img/jumbindex.jpg);
+    width: 100%;
+    /* Il occupe toute la largeur de l'écran */
+    background-size: cover;
+    /* ne se repète pas dans la largeur */
 }
-=======
+
 a:link {}
->>>>>>> master
->>>>>>> ebaeb999ac208b479ac05921f72c9d2cb4ea8ac9
