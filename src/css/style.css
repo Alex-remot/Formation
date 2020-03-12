@@ -70,15 +70,19 @@ a {
 }
 
 .jumb-index {
-  background-image: url('img/jumbindex.jpg');
+  background-image: url('../img/lumrouge.jpeg');
   width: 100%; /* Il occupe toute la largeur de l'écran */
   background-size: cover; /* ne se repète pas dans la largeur */
+  color: white;
 }
 
 .logo-inti {
     width: 60%;
 }
 
+.card-white {
+    background-color: white;
+}
 
 /* id: navbar */
 
