@@ -130,13 +130,13 @@
 
 
             <!-- bouton signin -->
-            <a id="signin" href="#signin?ref=signin" title="Se connecter" class="cellulle-link-signin selectDisable" onclick=openPopup()>
+            <a href="#signin?ref=signin" title="Se connecter" class="cellulle-link-signin selectDisable" onclick=openPopup()>
                 <span>SE CONNECTER</span>
             </a>
             <!-- bouton signin -->
 
             <!-- bouton signup -->
-            <a href="signup.html" title="S'inscrire" class="cellulle-link-signup selectDisable">
+            <a href="#signup?ref=signup" title="S'inscrire" class="cellulle-link-signup selectDisable" onclick=openPopup()>
                 <span>S'INSCRIRE</span>
             </a>
             <!-- bouton signup -->
@@ -160,11 +160,11 @@
     </div>
 
     <!-- Pop-up sign-in -->
-    <div id="hover-popup-window" class="hover-popup-window">
+    <div id="hover-popup-window-signin" class="hover-popup-window">
         <span class="helper"></span>
         <div>
             <div class="popupCloseButton" onclick=closePopup()>&times;</div>
-            <h1 class="custom-text-uppercase">Connexion</h1>
+            <h3 class="custom-text-uppercase">Connexion</h3>
             <p class="custom-signup custom-text-lowercase">Entrez vos identifiants pour accéder à toutes les fonctionnalités</p>
             <form class="signup">
                 <div class="form-group">
@@ -174,7 +174,7 @@
 
                 <div class="form-group">
                     <label for="FormControlInput2">Mot de Passe</label>
-                    <input type="email" class="form-control custom-form-control" id="FormControlInput2" placeholder="Mot de passe">
+                    <input type="password" class="form-control custom-form-control" id="FormControlInput2" placeholder="Mot de passe">
                 </div>
             </form>
 
@@ -185,15 +185,38 @@
     </div>
     <script>
         function openPopup() {
-            popup_window = document.getElementById("hover-popup-window");
+            popup_window = document.getElementById("hover-popup-window-signin");
             popup_window.style.display = "inline-block";
         }
 
         function closePopup() {
-            popup_window = document.getElementById("hover-popup-window");
+            popup_window = document.getElementById("hover-popup-window-signin");
             popup_window.style.display = "none";
         }
     </script>
+    <!-- Pop-up sign-in -->
+
+    <!-- Pop-up sign-up -->
+
+    <div id="hover-popup-window-signup" class="hover-popup-window">
+        <span class="helper"></span>
+        <div>
+            <div class="popupCloseButton" onclick=closePopup()>&times;</div>
+            <h3 class="custom-text-uppercase">Inscriver vous</h3>
+            <form class="signup">
+                <div class="form-group">
+                    <label for="FormControlInput1">Nom</label>
+                    <input type="text" class="form-control custom-form-control" id="FormControlInput1" placeholder="Entrer votre nom de famille">
+                </div>
+                <div class="form-group">
+                    <label for="FormControlInput2">Prénom</label>
+                    <input type="text" class="form-control custom-form-control" id="FormControlInput1" placeholder="Entrer votre prénom">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pop-up sign-up -->
 </body>
 
 <!-- Footer -->
