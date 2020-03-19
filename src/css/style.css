@@ -10,6 +10,14 @@
     background: rgba(0, 163, 170, 0.4);
 }
 
+.jumb-index {
+  background-image: url('src/img/lumrouge.jpeg');
+  width: 100%; /* Il occupe toute la largeur de l'écran */
+  background-size: cover; /* ne se repète pas dans la largeur */
+  color: white;
+}
+
+
 .index-body {
     display: flex;
     justify-content: space-around;
