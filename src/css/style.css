@@ -10,6 +10,30 @@
     background: rgba(0, 163, 170, 0.4);
 }
 
+.index-body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.img-index {
+    width: 40%;
+}
+
+.container-index {
+    padding:10px;
+    width: 90%;
+    border: 0.4px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+}
+
+.text-index {
+    justify-content: center;
+    overflow:auto;
+    padding: 30px;
+}
 
 /* id: navbar */
 
