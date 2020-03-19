@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <title>Formation JAVA EE</title>
 
-    <!-- CSS link -->
-    <!-- src/css/style.css -->
+
+    <!-- lien vers le css -->
     <link rel="stylesheet" href="src/css/style.css">
-    <!-- src/css/style.css -->
 
     <!-- BootsStrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- BootsStrap -->
 
-    <!-- JavaScript link -->
+
 
     <!-- JQUery -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -27,58 +26,13 @@
     <!-- BootsStrap.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- BootsStrap.js -->
-    <!-- JavaScript link -->
 
 </head>
 
 <!-- header -->
 <header>
-    <nav id="site-upper-nav" class="nav-bar">
-        <!-- pertie droite de la nav-bar -->
-        <div class="box-header-inti-formation-left">
-            <!-- bouton inti formation -->
-            <a href="#" title="Inti Formation" class="cellulle-link-formation-inti">
-                <span>Inti Formation</span>
-            </a>
-            <!-- bouton inti formation -->
-            <!-- bouton link social-network -->
-
-            <!-- bouton GitHub -->
-            <ul class="navbar-nav ml-md-auto">
-                <li class="nav-item">
-                    <a class="nav-link p-2" href="#" target="_blank" rel="noopener" aria-label="LinkDin">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#4b4d55" width="24" height="24" viewBox="0 0 24 24">
-                            <title>LinkDin</title>
-                            <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            <!-- bouton GitHub -->
-
-            <!-- bouton link social-network -->
-        </div>
-        <!-- pertie droite de la nav-bar -->
-        <!-- pertie gauche de la nav-bar -->
-        <div class="box-header-inti-formation-left">
-            <!-- bouton signin -->
-            <a href="#" title="signin" class="cellulle-link-signin">
-                <span>SE CONNECTER</span>
-            </a>
-            <!-- bouton signin -->
-
-            <!-- bouton signup -->
-            <a href="#" title="signup" class="cellulle-link-signup">
-                <span>S'INSCRIRE</span>
-            </a>
-            <!-- bouton signup -->
-
-        </div>
-        <!-- pertie gauche de la nav-bar -->
-
-
-        <!--
-        <a class="navbar-brand" href="#">Inti Formation</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -86,37 +40,60 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    -->
-        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+                    <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
 
-        <!-- </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Se connecter</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">S'inscrire</a>
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
         </div>
-    -->
     </nav>
 </header>
 <!-- header -->
 
 <body>
-    <!-- Jumbotron -->
-    <div class="jumbotron jumb-index">
-      <div class="container">
-        <h1 class="display-4">Formation JAVA/JEE <br/>
-        Promo Avril 2020</h1>
-        <p class="lead">Des talents issus de parcours variés et un enseignement approfondie en JAVA : les clés pour une entrée de le monde professionnel du numérique réussie.<br/>
-        N'attendez pas pour découvrir notre équipe.</p>
-      </div>
+    <h1 class="signup">Inscription</h1>
+    <h5 class="signup">Vous pourrez accèder à toutes les fonctionnalités du site (trombinoscope, coordonées...)</h5>
+    <form class="signup">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nomprenom@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Nom</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Prénom (facultatif)</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Prénom">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Mot de Passe</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mot de passe">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Vous êtes ici pour ... </label>
+            <select class="form-control" id="exampleFormControlSelect1">
+      <option>Découvrir de nouveaux talents</option>
+      <option>Prendre contact avec l'équipe</option>
+      <option>Recruter un collaborateurs</option>
+      <option>Elargire votre réseaux</option>
+      <option>Autre</option>
+    </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Ce qui vous à pousser à vous inscrire, une remarque... (facultatif)</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </form>
+
+    <div class="signup-btn">
+        <button type="button" class="btn btn-info signup-btn">Je m'inscris !</button>
     </div>
-  <!-- Jumbotron -->
-</div>
-
-
 </body>
 
 <!-- Footer -->
@@ -140,28 +117,22 @@
             <div class="col-md-3 mb-md-0 mb-3">
 
                 <!-- Links -->
-                
+                <h5 class="text-uppercase">INTI</h5>
 
                 <ul class="list-unstyled">
                     <li>
-                        <a class="text-dark" href="https://adaming.fr/">
-                            <img class="logo-inti" src="src/img/logo-inti-formation.png" alt="logo inti">
-                        </a>
+                        <a class="text-dark" href="https://www.linkedin.com/company/inti-formation/about/">LinkedIn</a>
                     </li>
                 </ul>
-                
-
             </div>
             <!-- Grid column -->
             <!-- Grid column -->
             <div class="col-md-3 mb-md-0 mb-3">
                 <!-- Links -->
+                <h5 class="text-uppercase">ADAMING</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <br/>
-                        <a class="text-dark" href="https://adaming.fr/">
-                            <img class="logo-inti" src="src/img/logo-adaming.png" alt="logo inti">
-                        </a>
+                        <a class="text-dark" href="https://adaming.fr/">Sit web</a>
                     </li>
                 </ul>
             </div>
