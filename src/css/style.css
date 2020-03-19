@@ -10,6 +10,90 @@
     background: rgba(0, 163, 170, 0.4);
 }
 
+html,
+body {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0%;
+}
+
+header {
+    height: 50px;
+}
+
+body {
+    background-color: #040404;
+    margin: 0;
+    text-align: left;
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    /*box-sizing: border-box;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+footer {
+    /*position: absolute;
+    bottom: 0;
+    background-color: #BCBCBB;
+    clear: both;
+    position: relative;
+    height: 200px;*/
+    margin-top: auto;
+    width: 100%;
+    background-color: #31333b;
+    color: white;
+}
+
+.signup {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.signup-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: black;
+}
+
+.jumb-index {
+    background-image: url('../img/lumrouge.jpeg');
+    width: 100%;
+    /* Il occupe toute la largeur de l'écran */
+    background-size: cover;
+    /* ne se repète pas dans la largeur */
+    color: white;
+}
+
+.logo-inti {
+    width: 60%;
+}
+
+.card-white {
+    background-color: white;
+}
+
 
 /* id: navbar */
 
@@ -750,17 +834,6 @@ body {
 	position:relative;
 }
 */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
 
 img {
     vertical-align: middle;
