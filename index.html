@@ -16,6 +16,10 @@
 
     <!-- JavaScript link -->
 
+    <!-- our script js -->
+    <script src="src/js/script.js"></script>
+    <!-- our script js -->
+
     <!-- JQUery -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <!-- JQUery -->
@@ -28,9 +32,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- BootsStrap.js -->
     <!-- JavaScript link -->
-
-    <!-- test -->
-    <meta data-re <!-- test -->
 </head>
 
 <!-- header -->
@@ -79,64 +80,14 @@
 
         <div class="box-header-inti-formation-left">
 
-            <!-- Menu Internasionalisation dropDown-->
-            <!-- prototype -->
-
-            <!--             <div class="div-menu-drop-down">
-    <div data-role="langue:menu:dropdown" class="">
-        <div class="div-view-box-menu-lang-dropDown">
-            <span>
-            <svg alt="[object Object]" viewBox="0 0 14 10" width="14" height="10">
-                <defs>
-                    <mask id="mask-flag" x="0" y="0" width="14" height="10">
-                        <rect width="14" height="10" rx="2" fill="#FFF"></rect>
-                    </mask>
-                </defs>
-                <g mask="url(#mask-flag)">
-                    <rect x="0" y="0" width="4.67" height="10" fill="#1053BB"></rect>
-                    <rect x="4.67" y="0" width="4.67" height="10" fill="#FFF"></rect>
-                    <rect x="9.33" y="0" width="4.67" height="10" fill="#F44653"></rect>
-                </g>
-            </svg>
-        </span>
-            <span>fr</span>
-        </div>
-        <div class="">
-            <svg alt="chevron-down" wiewBox="0 0 11 7" width="11" height="7">
-                <g id="chevrondown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-745.000000, -233.000000">
-                    <g id="chevrondown-serch-bar" transform="translate(315.000000, 206.000000)" fill="#AFAFB3" stroke="#AFAFB3" stroke-width="0.5">
-                        <g id="chevrondown-content" transform="translate(20.000000, 0.000000)">
-                            <g id="chevrondown-universes" transform="translate(335.000000, 1.000000)">
-                                <g id="chevrondown-23:20" transform="translate(20.000000, 23.000000)">
-                                    <g id="chevrondown-arrow:-categories" transform="translate(56.000000, 4.000000">
-                                       <path>
-                                           
-                                       </path> 
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </svg>
-        </div>
-    </div>
-</div> -->
-
-            <!-- Menu Internasionalisation dropDown-->
-
-            <!-- Menu Internasionalisation dropDown-->
-
-
-
             <!-- bouton signin -->
-            <a href="#signin?ref=signin" title="Se connecter" class="cellulle-link-signin selectDisable" onclick=openPopup()>
+            <a href="#signin?ref=signin" title="Se connecter" class="cellulle-link-signin selectDisable" onclick=openPopupSignin()>
                 <span>SE CONNECTER</span>
             </a>
             <!-- bouton signin -->
 
             <!-- bouton signup -->
-            <a href="#signup?ref=signup" title="S'inscrire" class="cellulle-link-signup selectDisable" onclick=openPopup()>
+            <a href="#signup?ref=signup" title="S'inscrire" class="cellulle-link-signup selectDisable" onclick=openPopupSignUp()>
                 <span>S'INSCRIRE</span>
             </a>
             <!-- bouton signup -->
@@ -149,35 +100,41 @@
 
 <body>
     <!-- Jumbotron -->
-    <div class="jumbotron jumb-index" style=" background-image: url('src/img/jumbindex.jpg')">
-        <div class="container">
+    <div class="custom-jumb">
+        <div class="jumb-index"></div>
+        <div class="custom-container custom-front-container">
             <h1 class="display-4">Formation JAVA/JEE <br/> Promo Avril 2020</h1>
-            <p class="lead">Des talents issus de parcours variés et un enseignement approfondie en JAVA : les clés pour une entrée de le monde professionnel du numérique réussie.<br/> N'attendez pas pour découvrir notre équipe.</p>
+            <p class="lead">Des talents issus de parcours variés et un enseignement approfondie en JAVA : <br/>les clés pour une entrée de le monde professionnel du numérique réussie.<br/> N'attendez pas pour découvrir notre équipe.</p>
         </div>
     </div>
     <!-- Jumbotron -->
 
     <!-- Cards Index -->
     <div class="index-body">
-        <div class="container-index index-body">
-            <div class="card-body">
-                <h5>La Formation : </h5>
-                <p> Adaming et l'Inti se sont unis pour mettre à disposition de personnes en reconversion une formation puis un emploi dans le monde du digitale. La formation se compose de 57 jours et permet d'apprendre le dévellopement en JAVA/JEE. </p>
-                <button type="button" class="btn btn-info">En savoir plus</button>
+        <div class="index-body">
+            <div class="container-index">
+                <div class="card-body">
+                    <h5>La Formation : </h5>
+                    <p> Adaming et l'Inti se sont unis pour mettre à disposition de personnes en reconversion une formation puis un emploi dans le monde du digitale. La formation se compose de 57 jours et permet d'apprendre le dévellopement en JAVA/JEE. </p>
+                    <button type="button" class="btn custom-button">En savoir plus</button>
+                </div>
+                <div class="card-body">
+                    <img src="src/img/coding.jpeg" alt="coding" class="img-index img-thumbnails">
+                </div>
             </div>
-            <img src="src/img/coding.jpeg" alt="coding" class="img-index img-thumbnails">
         </div>
-    </div>
 
-    <div class="index-body">
-        <div class="container-index index-body">
-            <img src="src/img/team.jpeg" alt="coding" class="img-index img-fluid">
-            <div class="card-body">
-                <h5>L'équipe : </h5>
-                <p> 14 élèves de formation et de parcours différents, tous réunis pour se reconvertir dans le digital. <br/>
-                    Ensembles, nous avons réunis nos forces pour progresser en groupe.<br/>
-                    Venez découvrir notre équipe au plus vite, et n'hésitez pas à nous contacter.</p>
-                <button type="button" class="btn btn-info">Découvrir la team</button>
+        <div class="index-body">
+            <div class="container-index">
+                <div class="card-body">
+                    <img src="src/img/team.jpeg" alt="coding" class="img-index img-fluid">
+                </div>
+                <div class="card-body">
+                    <h5>L'équipe : </h5>
+                    <p> 14 élèves de formation et de parcours différents, tous réunis pour se reconvertir dans le digital. <br/> Ensembles, nous avons réunis nos forces pour progresser en groupe.<br/> Venez découvrir notre équipe au plus vite, et n'hésitez
+                        pas à nous contacter.</p>
+                    <button type="button" class="btn custom-button">Découvrir la team</button>
+                </div>
             </div>
         </div>
     </div>
@@ -187,7 +144,7 @@
     <div id="hover-popup-window-signin" class="hover-popup-window">
         <span class="helper"></span>
         <div>
-            <div class="popupCloseButton" onclick=closePopup()>&times;</div>
+            <div class="popupCloseButton" onclick=closePopupSignin()>&times;</div>
             <h3 class="custom-text-uppercase">Connexion</h3>
             <p class="custom-signup custom-text-lowercase">Entrez vos identifiants pour accéder à toutes les fonctionnalités</p>
             <form class="signup">
@@ -207,17 +164,6 @@
             </div>
         </div>
     </div>
-    <script>
-        function openPopup() {
-            popup_window = document.getElementById("hover-popup-window-signin");
-            popup_window.style.display = "inline-block";
-        }
-
-        function closePopup() {
-            popup_window = document.getElementById("hover-popup-window-signin");
-            popup_window.style.display = "none";
-        }
-    </script>
     <!-- Pop-up sign-in -->
 
     <!-- Pop-up sign-up -->
@@ -225,16 +171,51 @@
     <div id="hover-popup-window-signup" class="hover-popup-window">
         <span class="helper"></span>
         <div>
-            <div class="popupCloseButton" onclick=closePopup()>&times;</div>
-            <h3 class="custom-text-uppercase">Inscriver vous</h3>
+            <div class="popupCloseButton" onclick=closePopupSignUp()>&times;</div>
+            <h3 class="custom-text-uppercase">Inscription</h3>
             <form class="signup">
                 <div class="form-group">
-                    <label for="FormControlInput1">Nom</label>
-                    <input type="text" class="form-control custom-form-control" id="FormControlInput1" placeholder="Entrer votre nom de famille">
+                    <!--<label for="FormControlInput1">Nom</label>-->
+                    <input type="text" class="form-control custom-form-control" id="FormControlInputSignup1" placeholder="Nom">
                 </div>
                 <div class="form-group">
-                    <label for="FormControlInput2">Prénom</label>
-                    <input type="text" class="form-control custom-form-control" id="FormControlInput1" placeholder="Entrer votre prénom">
+                    <!--<label for="FormControlInput2">Prénom</label>-->
+                    <input type="text" class="form-control custom-form-control" id="FormControlInputSignup2" placeholder="Prénom">
+                </div>
+                <div class="form-group">
+                    <!--<label for="FormControlInput3">Adresse e-amil</label>-->
+                    <input type="email" class="form-control custom-form-control" id="FormControlInputSignup3" placeholder="nomprenom@example.com">
+                </div>
+                <div class="form-group">
+                    <!--<label for="FormControlInput4">Mot de passe</label>-->
+                    <input type="password" class="form-control custom-form-control" id="FormControlInputSignup4" placeholder="Mot de passe">
+                </div>
+                <div class="form-group">
+                    <p>
+                        <input type="checkbox" id="CGU-checkbox-button" onclick="loseFocuse()" />
+                        <!-- faire en sorte que dés qu'on reefresh la popup la cellul soit uncheck-->
+                        <label for="CGU-checkbox-button" aria-describedby="label" class="msg-CGU-popup-signUp">
+                            <span class="ui">
+                            </span>
+                            J'ai lu et j'accepte les <a href="#" class="msg-a-CGU-popup-signUp">CGU</a> du site de Formation Inti
+                        </label>
+                    </p>
+                </div>
+                <div>
+                    <input type="button" class="btn custom-signup-button" value="S'INSCRIRE" />
+                </div>
+                <div class="form-group" id="form-group-or">
+                    <hr class="line-popup-or" id="line-popup-or-left">
+                    <p class="popup-or">OU</p>
+                    <hr class="line-popup-or" id="line-popup-or-right">
+                </div>
+                <!-- Inscription via linkdin -->
+                <!-- Inscription via linkdin -->
+
+                <!-- Inscription via Google -->
+                <!-- Inscription via Google -->
+                <div class="footer-form-group">
+                    <p class="msg-basline-popup">Vous avez déjà un compte Formation Inti ? <a href="#" class="msg-a-basline-popup">Se connecter</a></p>
                 </div>
             </form>
         </div>
